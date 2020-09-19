@@ -1,12 +1,12 @@
 html{
-    background-color: pink;
+    background-color: #004E89;
     height: 100%;
 }
 
 #container{
      height: 325px;
      width: 350px;
-     background-color: green;
+     background-color: #679289;
      display: grid;
      grid-template-columns: 100px 1fr;
      grid-template-rows: 75px 75px 75px 75px;
@@ -17,7 +17,7 @@ html{
      ". total-bill"
      "btn btn";
      margin: 0 auto;
-     border: 5px solid red;
+     border: 5px solid #F7C59F;
      padding: 25px; 
      font-family: 'Kumbh Sans', sans-serif;
 }
@@ -39,8 +39,6 @@ html{
     height: 25px;
     width: 250px;
     border-radius: 4px;
-    /* border-width: 4px; */
-    /* border-color: purple; */
 }
 
 #btn{
@@ -49,12 +47,14 @@ html{
      width: auto;
      font-family: 'Kumbh Sans', sans-serif;
      border-radius: 4px;
-     color: green;
-     border-color: purple;
-     border-width: 4px;
+     color: #004E89;
+     border-color: #F7C59F;
+     border-width: 2px;
+     font-size: 16px;
 }
 
 h1{
     margin-left: 610px;
     font-family: 'Kumbh Sans', sans-serif;
+    color: #F7C59F;
 }
