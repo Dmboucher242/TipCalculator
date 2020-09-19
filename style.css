@@ -1,0 +1,23 @@
+html{
+    background-color: pink;
+    height: 100%;
+}
+
+#container{
+     height: 325px;
+     width: 350px;
+     background-color: green;
+     display: grid;
+     grid-template-columns: 100px 1fr;
+     grid-template-rows: 75px 75px 75px 75px;
+     grid-template-areas: 
+     ""
+     ""
+     ""
+     ""
+     "";
+     margin: 0 auto;
+     border: 5px solid red;
+     padding: 25px; 
+}
+ 
